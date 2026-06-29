@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VacúnateMX - Inicio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0d4e96,#3cb371);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contenedor{
+    width:380px;
+    background:white;
+    border-radius:25px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+
+h1{
+    color:#0d4e96;
+    margin-bottom:10px;
+}
+
+h1 span{
+    color:#3cb371;
+}
+
+img{
+    width:180px;
+    margin:20px 0;
+}
+
+h2{
+    color:#3cb371;
+    margin-bottom:10px;
+}
+
+p{
+    margin-bottom:20px;
+    color:#555;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    margin:8px 0;
+    border:none;
+    border-radius:12px;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+.registro{
+    background:#0d4e96;
+}
+
+.vacuna{
+    background:#3cb371;
+}
+
+.sintomas{
+    background:#2196F3;
+}
+
+.ayuda{
+    background:#8BC34A;
+}
+
+.consulta{
+    background:#FF9800;
+}
+
+.sintomas{
+    background:#2196F3;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <h1>VACÚNATE <span>MX</span></h1>
+
+    <img src="https://cdn-icons-png.flaticon.com/512/2785/2785819.png">
+
+    <h2>Bienvenido</h2>
+
+    <p>Juntos nos cuidamos, juntos vencemos al COVID-19.</p>
+
+    <button class="registro"
+    onclick="location.href='registro.html'">
+        Registro de Persona
+    </button>
+
+    <button class="vacuna"
+    onclick="location.href='vacuna.html'">
+        Registro de Vacuna
+    </button>
+
+   <button class="vacuna"
+    onclick="location.href='consulta.html'">
+    Consultar Cita
+    </button>
+
+    <button class="sintomas"
+    onclick="location.href='seguimiento.html'">
+        Reportar Síntomas
+    </button>
+
+    <button class="ayuda"
+    onclick="location.href='ayuda.html'">
+        Ayuda y Contacto
+    </button>
+
+</div>
+
+</body>
+</html>
